@@ -1,5 +1,6 @@
 package com.example.alejandro.findmyplace.Database;
 
+import android.content.Context;
 import android.provider.BaseColumns;
 
 /**
@@ -15,4 +16,7 @@ public class FeedEntry implements BaseColumns {
     public static final String COLUMN_DESCRIPTION = "description";
     public static final String COLUMN_IMAGEURL = "image_url";
     public static final String COLUMN_ADDRESS = "address";
+
+    public FeedEntry(Context context) {
+    }
 }
